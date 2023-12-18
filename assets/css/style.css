@@ -1,0 +1,55 @@
+@import url('./reset.css');
+
+* {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+/*mobile first*/
+header .nav-links {
+    display: none;
+}
+
+
+header .nav-links a {
+    color: #222;
+}
+
+header {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* align-items: center; */
+    align-items: center;
+}
+
+/* media sorgulari */
+@media(min-width:768px) {
+    .fa-burger {
+        display: none;
+    }
+
+    header {
+        padding: 30px 55px;
+    }
+
+    header .nav-links {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+
+
+@media(min-width:1080px) {
+    header {
+        padding: 20px 112px;
+    }
+}
