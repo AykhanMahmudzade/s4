@@ -30,6 +30,7 @@ header {
     align-items: center;
 }
 
+
 /* media sorgulari */
 @media(min-width:768px) {
     .fa-burger {
@@ -52,4 +53,9 @@ header {
     header {
         padding: 20px 112px;
     }
+}
+
+/* intro hissesi basladi */
+h1 span {
+    color: #ff8a56;
 }
