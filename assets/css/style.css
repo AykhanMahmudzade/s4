@@ -31,11 +31,32 @@ header {
 }
 
 
+
+/* intro hissesi basladi */
+h1 span {
+    color: #ff8a56;
+}
+
+
+.introduction .intro-left-side h1{
+   margin-top: 20px;
+    font-size: 39px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.introduction .intro-right-side img{
+    width: 300px;;
+}
+.introduction .intro-right-side img{
+    width: 100%;
+}
 /* media sorgulari */
 @media(min-width:768px) {
     .fa-burger {
         display: none;
     }
+
 
     header {
         padding: 30px 55px;
@@ -44,6 +65,16 @@ header {
     header .nav-links {
         display: flex;
         gap: 10px;
+    }
+    .introduction{
+        display: flex;
+    }
+    .introduction .intro-right-side {
+        width: 700px;
+    }
+    .introduction .intro-left-side h1{
+        font-size: 54px;
+        font-weight: 800px;
     }
 }
 
@@ -54,11 +85,3 @@ header {
         padding: 20px 112px;
     }
 }
-
-/* intro hissesi basladi */
-h1 span {
-    color: #ff8a56;
-}
-.intro .intro-left-side h1 {
-    font-size: 72px;
-} 
