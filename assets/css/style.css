@@ -105,12 +105,12 @@ ul{
 }
 .cards-section{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 10px;
 }
 .card{
     flex: 1 0 306px;
-    box-shadow: 10px 10px 40px rgba(0,0,0,.2);
+    /* box-shadow: 10px 10px 40px rgba(0,0,0,.2); */
 border-radius: 10px;
 }
 /* media sorgulari */
@@ -146,7 +146,13 @@ border-radius: 10px;
     .shirketler img:nth-child(3){
         display: block;
     }
+    .services h1{
+        font-size: 54px;
+        width: 700px;
+        margin: 40px auto;
+    }
 }
+
 
 
 
